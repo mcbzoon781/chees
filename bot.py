@@ -590,4 +590,6 @@ async def display_board(ctx, board):
     await ctx.send(embed=embed)
 
 # تشغيل البوت بالتوكن الخاص بك
-bot.run("MTUxOTMzMjk0NDAzNDkyNjc0Mw.GIKPw0.6R-_2HW6GS0fm_HZl-ljb0WPpc-Mh3DhUHQ-8w")
+import os
+# ...
+bot.run(os.getenv('DISCORD_TOKEN'))
